@@ -3,7 +3,7 @@ Protect Your Important Sectors!
 
 ------------------------------------------
 # What is it?
-This is a driver with the `IRP_of Hook`\Device\\\Harddisk0\\DR0`MJ_WRITE` to filter sector writes.
+This is a driver with the Hook`\Device\\\Harddisk0\\DR0` of `IRP_MJ_WRITE` to filter sector writes.
 
 # What is its default behavior?
 It filters by default writes to 0 sectors on the *first disk* and no R3 program can write to 0 sectors on the *first disk*
